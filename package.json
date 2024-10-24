@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "playwright-prompt": "node runTest.js",
-    "playwright-ui-mode": "npx playwright test --ui"
+    "playwright-ui-mode": "npx playwright test --ui",
+    "playwright-run:chrome:headed": "npx playwright test --project=chromium --headed"
   },
   "keywords": [],
   "author": "",
